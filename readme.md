@@ -4,6 +4,7 @@
 
 [![CI:UT](https://github.com/kajirikajiri/recursive-remove/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/kajirikajiri/recursive-remove/actions/workflows/npm-publish.yml)
 
+## Usage
 ```javascript
 import {recursiveRemove} from 'recursive-remove';
 
@@ -54,6 +55,7 @@ console.log(a) // {}
 
 [other examples](https://github.com/kajirikajiri/recursive-remove/blob/main/src/index.test.ts)
 
+## Installation
 ```sh
 npm install recursive-remove
 ```
