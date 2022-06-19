@@ -52,8 +52,8 @@ recursiveRemove(
 console.log(a) // {}
 ```
 
+[other examples](https://github.com/kajirikajiri/recursive-remove/blob/main/src/index.test.ts)
+
 ```sh
 npm install recursive-remove
 ```
-
-[other examples](https://github.com/kajirikajiri/recursive-remove/blob/main/src/index.test.ts)
