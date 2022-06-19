@@ -1,6 +1,6 @@
 type Option = {
   removeOption?: {
-    isFalseLike?: boolean;
+    isFalsy?: boolean;
     isEmptyArray?: boolean;
     isEmptyObject?: boolean;
   };
@@ -18,8 +18,8 @@ const generateCanRemove = (option: Option["removeOption"]) => {
   if (option === undefined) return canRemoveDefault;
 
   const result: ((x: any) => boolean)[] = [];
-  if (option.isFalseLike) {
-    result.push(isFalseLike);
+  if (option.isFalsy) {
+    result.push(isFalsy);
   }
   if (option.isEmptyArray) {
     result.push(isEmptyArray);
@@ -36,7 +36,7 @@ const generateCanRemove = (option: Option["removeOption"]) => {
 
 const canRemoveDefault = (_: any) => false;
 
-const isFalseLike = (x: any) => {
+const isFalsy = (x: any) => {
   return !x;
 };
 

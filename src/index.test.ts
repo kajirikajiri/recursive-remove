@@ -44,7 +44,7 @@ const testCases: {
       },
       {
         removeOption: {
-          isFalseLike: true,
+          isFalsy: true,
         },
       },
     ],
@@ -91,7 +91,7 @@ const testCases: {
       },
       {
         removeOption: {
-          isFalseLike: true,
+          isFalsy: true,
         },
       },
     ],
@@ -113,7 +113,7 @@ const testCases: {
       [0, -0, BigInt(0), "", null, undefined, NaN, false],
       {
         removeOption: {
-          isFalseLike: true,
+          isFalsy: true,
         },
       },
     ],
@@ -130,7 +130,7 @@ const testCases: {
       [[[1, "a", true]]],
       {
         removeOption: {
-          isFalseLike: true,
+          isFalsy: true,
         },
       },
     ],

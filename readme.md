@@ -22,7 +22,7 @@ recursiveRemove(
   a,
   {
     removeOption: {
-      isFalseLike: true,
+      isFalsy: true,
     },
   },
 );
@@ -46,7 +46,7 @@ recursiveRemove(
   a,
   {
     removeOption: {
-      isFalseLike: true,
+      isFalsy: true,
     },
   },
 );
